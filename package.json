@@ -1,0 +1,17 @@
+{
+  "name": "g-class-javascript-utils",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-modules --es-module-specifier-resolution=node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kefelan/g-class-javascript-utils.git"
+  },
+  "author": "Kefelan",
+  "bugs": {
+    "url": "https://github.com/kefelan/g-class-javascript-utils/issues"
+  },
+  "homepage": "https://github.com/kefelan/g-class-javascript-utils#readme"
+}
