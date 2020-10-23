@@ -19,12 +19,27 @@ import preventDefaultStopProp from "./general/preventDefaultStopProp";
 import randomString from "./general/randomString";
 import safeParseJSON from "./general/safeParseJSON";
 import validateEmail from "./general/validateEmail";
+import whenFulfill from "./general/whenFulfill";
+import flipCoin from "./general/flipCoin";
+import runInAsync from "./general/runInAsync";
+import contextReject from "./general/contextReject";
+import contextResolve from "./general/contextResolve";
+import evalStringBoolean from "./general/evalStringBoolean";
+import getEventRealValue from "./general/getEventRealValue";
+import isNonZeroFalse from "./general/isNonZeroFalse";
+import objectToMultipart from "./general/objectToMultipart";
+import serializeObject from "./general/serializeObject";
 
 export const helpers = {
   asyncPause,
   capitalize,
   capitalizeAll,
+  contextReject,
+  contextResolve,
+  evalStringBoolean,
+  flipCoin,
   formatFixedDigits,
+  getEventRealValue,
   getQueryParameters,
   getDatesInBetween,
   getDayNamesEng,
@@ -36,11 +51,16 @@ export const helpers = {
   getWeekNumber,
   ipsum,
   isEmpty,
+  isNonZeroFalse,
+  objectToMultipart,
   preventDefaultStopProp,
   randomString,
+  runInAsync,
   safeParseJSON,
+  serializeObject,
   toMilliseconds,
   validateEmail,
+  whenFulfill,
   yyyyddmm
 };
 

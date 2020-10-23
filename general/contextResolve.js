@@ -1,0 +1,1 @@
+export default resolution => Promise.resolve(resolution);
